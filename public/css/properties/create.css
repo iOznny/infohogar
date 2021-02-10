@@ -1,0 +1,36 @@
+input[type="file"] {
+  outline: 0;
+  opacity: 0;
+  pointer-events: none;
+  user-select: none;
+}
+  
+.label {
+  border: 2px dashed grey;
+  border-radius: 5px;
+  display: block;
+  transition: border 300ms ease;
+  cursor: pointer;
+  text-align: center;
+}
+
+
+i {
+  display: block;
+  font-size: 42px;
+  padding-bottom: 16px;
+}
+
+i .title {
+  color: grey;
+  transition: 200ms color;
+}
+
+.label:hover {
+  border: 2px solid black;
+}
+
+.title:hover {
+  color: black;
+}
+  
